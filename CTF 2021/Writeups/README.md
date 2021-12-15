@@ -1,10 +1,10 @@
 The writeups are splitted on different categories:
 
-- Hello
+- Hello **[1.Lemon Squeezy](./Hello/Lemon%20Squeezy/README.md)**
 - Web
-- Reverse
-- Pwn
+- Reverse **[1.SIMplTon](./Reverse/SIMplTon/)** | **[2.ARuDOIN](./Reverse/ARuDOIN/)**
+- Pwn **[1.simple_boff](./Pwn/simple_boff.md)**
 - Misc
 - AWS
-- OSINT **[T1 >>](./OSINT/T1/README.md)**
-- Crypto
+- OSINT **[T1](./OSINT/T1/README.md)**
+- Crypto **[1.TOR](./Crypto/TOR/README.md)**
