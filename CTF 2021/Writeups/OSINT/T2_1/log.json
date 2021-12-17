@@ -1,0 +1,156 @@
+{
+ "name": "Nick",
+ "type": "personal_chat",
+ "id": 287241011,
+ "messages": [
+  {
+   "id": 96012,
+   "type": "message",
+   "date": "2021-10-31T14:37:45",
+   "from": "Rudik",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "media_type": "sticker",
+   "sticker_emoji": "👋",
+   "width": 512,
+   "height": 512,
+   "text": ""
+  },
+  {
+   "id": 96013,
+   "type": "message",
+   "date": "2021-10-31T14:37:52",
+   "from": "Rudik",
+      "text": "Oh? Nick!"
+  },
+  {
+   "id": 96014,
+   "type": "message",
+   "date": "2021-10-31T14:37:59",
+   "from": "Rudik",
+   "text": "Good to see you!"
+  },
+  {
+   "id": 96015,
+   "type": "message",
+   "date": "2021-10-31T14:44:32",
+   "from": "Nick",
+   "text": "How’s it going?"
+  },
+  {
+   "id": 96016,
+   "type": "message",
+   "date": "2021-10-31T14:52:34",
+   "from": "Rudik",
+   "text": "Yeah, good. Working a lot. And you?"
+  },
+  {
+   "id": 96017,
+   "type": "message",
+   "date": "2021-10-31T14:53:08",
+   "from": "Nick",
+   "text": "I'm happy. Everything is fine"
+  },
+  {
+   "id": 96018,
+   "type": "message",
+   "date": "2021-10-31T15:37:34",
+   "from": "Nick",
+      "reply_to_message_id": 96016,
+   "text": "How's your company? Do u have any problems?"
+  },
+  {
+   "id": 96018,
+   "type": "message",
+   "date": "2021-10-31T15:30:52",
+   "from": "Rudik",
+   "text": "Oh, no. The Mad dogs runs well. But we have some issues to hire new employees"
+  },
+  {
+   "id": 96019,
+   "type": "message",
+   "date": "2021-10-31T15:30:52",
+   "from": "Nick",
+   "text": "This is a common problem"
+  },
+  {
+   "id": 96020,
+   "type": "message",
+   "date": "2021-10-31T15:31:05",
+   "from": "Rudik",
+   "text": "Yes, I agree!"
+  },
+  {
+   "id": 96021,
+   "type": "message",
+   "date": "2021-10-31T15:31:10",
+   "from": "Rudik",
+   "text": "Also, we move in a new office and my wife has decided to sell all old stuff",
+   "sticker_emoji": "🥴"
+  },
+  {
+   "id": 96022,
+   "type": "message",
+   "date": "2021-10-31T15:32:03",
+   "from": "Nick",
+      "reply_to_message_id": 96021,
+   "text": "your wife is very practical",
+   "sticker_emoji": "😂"
+  },
+  {
+   "id": 96023,
+   "type": "message",
+   "date": "2021-10-31T15:32:03",
+   "from": "Nick",
+   "text": "And how does she manage everything!!"
+  },
+  {
+   "id": 96024,
+   "type": "message",
+   "date": "2021-10-31T15:32:34",
+   "edited": "2021-10-31T15:32:52",
+   "from": "Rudik",
+      "reply_to_message_id": 96022,
+   "text": "Yeah. Maybe, do you need a TV, computers or coffee machine?"
+  },
+  {
+   "id": 96025,
+   "type": "message",
+   "date": "2021-10-31T15:33:29",
+   "from": "Rudick",
+   "text": "I can send a link with her ads"
+  },
+  {
+   "id": 96026,
+   "type": "message",
+   "date": "2021-10-31T15:34:18",
+   "from": "Rudick",
+   "text": "but we are still on vacation, so if you need something, we'll discuss it when we come back"
+  },
+  {
+   "id": 96027,
+   "type": "message",
+   "date": "2021-10-31T15:32:34",
+   "edited": "2021-10-31T15:32:52",
+   "from": "Rudik",
+      "reply_to_message_id": 96023,
+   "text": "Wow, I don't know. But she also spends much time to pin everything that connect to her hobby"
+  },
+  {
+   "id": 96028,
+   "type": "message",
+   "date": "2021-10-31T15:34:18",
+   "from": "Rudick",
+   "text": "sometimes I'm afraid that she'll leave me for the sake of the social network",
+   "sticker_emoji": "😂"
+  },
+    {
+   "id": 96029,
+   "type": "message",
+   "date": "2021-10-31T15:32:34",
+   "edited": "2021-10-31T15:32:52",
+   "from": "Nick",
+      "reply_to_message_id": 96025,
+   "text": "Yeah, no problem. Have a good vacation"
+  }
+}
