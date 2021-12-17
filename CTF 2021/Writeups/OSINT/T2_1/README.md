@@ -7,7 +7,7 @@
 What company does one of your friends work for? Submit Company's name as a flag: flag{company_name} For example, if company name would be "Super Duper Mega" than flag would be: flag{Super_Duper_Mega} ("The" is not expected to be in flag)
 
 
-And we have the chat dump: **[log.json] (./log.json)**
+And we have the chat dump: **[log.json](./log.json)**
 
 ## Solution
 
