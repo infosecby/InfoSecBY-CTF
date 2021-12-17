@@ -7,8 +7,7 @@
 What company does one of your friends work for? Submit Company's name as a flag: flag{company_name} For example, if company name would be "Super Duper Mega" than flag would be: flag{Super_Duper_Mega} ("The" is not expected to be in flag)
 
 
-And we have the chat dump:
-![picture OSINT task #1](./download.jfif)
+And we have the chat dump
 
 ## Solution
 
@@ -29,4 +28,4 @@ And we have the chat dump:
    "text": "Oh, no. The *Mad dogs* runs well. But we have some issues to hire new employees"
   }
   "
-Flag: **flag{Mad_Dogs}**
+2. Flag: **flag{Mad_Dogs}**
