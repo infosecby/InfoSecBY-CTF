@@ -8,4 +8,5 @@ The writeups are splitted on different categories:
 - AWS
 - OSINT **[T1](./OSINT/T1/README.md)**
 - OSINT **[T2_1](./OSINT/T2_1/README.md)**
+- OSINT **[T2_2](./OSINT/T2_2/README.md)**
 - Crypto **[1.TOR](./Crypto/TOR/README.md)**
