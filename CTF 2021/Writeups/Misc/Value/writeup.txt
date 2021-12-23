@@ -1,0 +1,12 @@
+LSB (Least Significant Bit) steganography
+
+A colour pixel is composed of red, green and blue, encoded on one byte. The idea is to store information in the first bit of every pixel's RGB component. In the worst case, the decimal value is different by one which is not visible to the human eye. In practice, if you don't have space to store all of your data in the first bit of every pixel you should start using the second bit, and so on. You have to keep in mind that the more your store data in an image, the more it can be detected.
+
+Extracting data:
+
+pip install stego-lsb
+
+stegolsb steglsb -r -i stego_task_1.png -o flag.txt -n 1
+
+Flag:
+flag{y0u_4r3_51gn1f1c4nt_3n0ugh}
