@@ -1,0 +1,16 @@
+Application uses MongoDB and vulnerable to NoSQL injection in login form.
+
+You can find username "Administrator" in task's description.
+
+Then you can intercept login request and change data to the following payload:
+
+username=gym_boss&password[$ne]=haha
+
+and you will login "Administrator".
+
+But flag is his password, so you should automate the process.
+
+Script exploit1.py can be found in this folder, too.
+
+Flag:
+flag{m1r4cl35_5urr0und_y0u}
