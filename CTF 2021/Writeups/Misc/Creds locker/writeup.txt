@@ -1,0 +1,28 @@
+Participants will have source code of this console application.
+
+The whole path to flag consists of the two steps.
+
+1) SQL injection in login
+
+It's obvious that application doesn't filter user input, so the key point is to understand the logic of application.
+In order to successfully bypass login checks the result of SQL query should return onlly 1 item.
+Also, in order to get access to other users' information you should exploit "id" parameter. And you can do it at the login stage, too.
+So, to kill two birds with one stone you should paste in username the following payload for example:
+
+tom' union select '-1 or 1=1' -- -
+
+tom is an unexisting user and password doesn't matter. This payload allows you to pass the check in "login" function and set "id" to "-1 or 1=1" what allows you to trick "db_get" function.
+
+Now you're able to identify target user: "INFOSECBY_FLAG_USER"
+The password says that he will not help you and that's absolutely the truth.
+
+2) In order to be able to obtain flag you should exploit the second misconfiguration.
+
+When user tries to register, application checks if such user already exists by searching "id" of such "username". If the result is empty, application will insert new line in DB.
+If the result is not empty, application will not do that, but novice developer forgot to clear the contents of "id" variable and it will consist of "id" of already registred user.
+It will allow you to get the flag.
+
+So, just try to register with username "INFOSECBY_FLAG_USER" and choose "get flag" option.
+
+FLAG: flag{d0_n0t_wr1t3_c0d3_l1k3_th15}
+
