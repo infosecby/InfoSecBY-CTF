@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Index </title>
+      <!--   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+        <meta charset="utf-8">
+        <meta name="author" content="Kodinger">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../static/css/my-login.css">    
+    </head>
+    <body>
+      <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Service Name</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"></li>
+              <li class="nav-item"></li>
+              <li class="nav-item dropdown">
+                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown"></div>
+              </li>
+              <li class="nav-item"></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <a class="btn my-2 my-sm-0 btn-danger" href="{{ url_for('logout') }}" type="submit">Logout</a>
+            </form>
+          </div>
+        </nav>    
+      <!--   ------- -->
+      <div>
+          <div align="center" class="border">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-6">{{session.username}}'s environment</h1>
+                <p class="lead">Hi, {{session.username}}!! {{msg}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="../static/img/Image.png" class="beaker" alt="bootstrap 4 login page">
+
+
+
+
+
+        <script src="../static/js/bootstrap.js"></script>
+        <script src="../static/js/my-login.js"></script>
+
+    </body>
+</html>
