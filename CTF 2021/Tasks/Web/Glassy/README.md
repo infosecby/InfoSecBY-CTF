@@ -1,4 +1,9 @@
+Task description
+
 Your goal is to takeover the "administrator" account!
 
-docker load < glassy.tar
-docker run -d -p 2222:2222 -t registry.ctfd.io/infosecby/glassy
+Instructions
+
+sudo apt python3 python3-dev python3-pip
+sudo pip3 install Flask==1.0.3
+python3 app.py start
