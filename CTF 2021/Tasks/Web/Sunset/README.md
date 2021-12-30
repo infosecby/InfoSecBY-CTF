@@ -4,6 +4,6 @@ Oh, what a great feeling when you're taking photo of a sunset, isn't it? It can 
 
 Instructions
 
-sudo apt python3 python3-dev python3-pip
-sudo pip3 install Flask==1.0.3
-python3 app.py start
+sudo apt python3 python3-dev python3-pip  
+sudo pip3 install Flask==1.0.3  
+python3 app.py start  
