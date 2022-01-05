@@ -3,6 +3,9 @@ The writeups are splitted on different categories:
 - Hello 
 
   **[1.Lemon Squeezy](./Hello/Lemon%20Squeezy/README.md)**
+  **[2.Orange](./Hello/Orange)**
+  **[3.JBox](./Hello/JBox/)**
+  **[4.FindAll](./Hello/FindAll/)**
 - Web
 - Reverse 
 
