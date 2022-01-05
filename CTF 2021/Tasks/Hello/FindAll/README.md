@@ -1,10 +1,10 @@
 <h1>Orange</h1>
 
-![This is an image](https://github.com/infosecby/InfoSecBY-CTF/blob/main/CTF%202021/Tasks/Hello/Orange/Orange.png)
+![This is an image](https://github.com/infosecby/InfoSecBY-CTF/blob/main/CTF%202021/Tasks/Hello/FindAll/FindAll.png)
 
 <h3>Installation</h3>
 
-Unzip Orange.zip archive.
+Unzip FindAll.zip archive.
 
 The easiest way:
 
