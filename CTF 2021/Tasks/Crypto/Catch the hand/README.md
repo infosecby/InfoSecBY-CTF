@@ -1,2 +1,2 @@
-<h1>Catch the hand, Crypto task</h1> 
+<h1>Catch the hand</h1> 
 
