@@ -2,6 +2,8 @@
 
 ![This is an image](https://github.com/infosecby/InfoSecBY-CTF/blob/main/CTF%202021/Tasks/Hello/JBox/JBox.png)
  
+<h2>Solution</h2>
+ 
 1) Click on the search button 
 2) Open browser console 
 3) Find string (console.log) in the browser console with ( one of the test functions ) text line 
