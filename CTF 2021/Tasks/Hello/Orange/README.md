@@ -1,10 +1,10 @@
 <h1>Orange</h1>
 
-![This is an image](infosecby/InfoSecBY-CTF/CTF 2021/Tasks/Hello/Orange/Orange.png)
+![This is an image](https://github.com/infosecby/InfoSecBY-CTF/blob/main/CTF%202021/Tasks/Hello/Orange/Orange.png)
 
 <h3>Installation</h3>
 
-Unzip JBox.zip archive.
+Unzip Orange.zip archive.
 
 The easiest way:
 
@@ -17,9 +17,9 @@ python3 -m http.server
 
 Also, you can use apache2 to host this task.
 
-1) Copy progect folder to /var/www/html folder.
+1) Copy project folder to /var/www/html folder.
 
-2) Run next comand: 
+2) Run next command: 
 ```
 sudo service apache2 start
 ```
