@@ -32,7 +32,7 @@ The writeups are splitted on different categories:
 
   **[1.TOR](./Crypto/TOR/README.md)**
   
-  **[2.Catch the hand](./Crypto/Catch the hand/)**
+  **[2.Catch the hand](https://github.com/infosecby/InfoSecBY-CTF/tree/main/CTF%202021/Writeups/Crypto/Catch%20the%20hand)**
   
 
 
