@@ -55,7 +55,8 @@ Comparison for end of the cycle that is telling us that data of length 0xe2 will
 
 As you can see, it contains application's strings. And even some flag, but it is not working (dummy flag), so let's continue our search.
 
-5.  
+5.  Below this cycle we can see similar, but it sets part of the memory right after copied data to zeroes (reserving the memory for global variables)
+6.  
 
 We get the flag: **flag{}**
 
