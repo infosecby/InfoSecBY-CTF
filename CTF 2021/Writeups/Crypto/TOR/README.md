@@ -1,3 +1,9 @@
+# TOR
+
+**[⬆ to writups](../README.md)**
+
+## Solution
+
 Ctr+c file content
 
 Go to http://rot8000.com/Index
