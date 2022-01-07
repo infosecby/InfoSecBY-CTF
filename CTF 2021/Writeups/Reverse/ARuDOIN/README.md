@@ -25,10 +25,13 @@ r2 ARuDOIN.bin
 ```
 pd @0x0
 ```
+![Interrupt Vector Table](./1.png)
 
 To understand what each of them means, you can look in the datasheet of microcontroller that is used. For now we interested in first jump that is occuring on system reset: jmp entry0
 
 3.  As flash memory in AVR can't be modified, usually at the start of the entry function all the static data that will be modified during program run is copied to SRAM, which we can see here:
+
+![entry0 graph](./entry0.png)
 
 So what is happenning is:
 ```
@@ -48,8 +51,9 @@ Comparison for end of the cycle that is telling us that data of length 0xe2 will
 
 4.  Let's look on that memory:
 
+![copied memory](./copied_data.png)
 
-As you can see, it contains application's strings. And even some flag, but it is not working, so let's continue our search.
+As you can see, it contains application's strings. And even some flag, but it is not working (dummy flag), so let's continue our search.
 
 5.  
 
